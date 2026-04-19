@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Green's Construction | Maintenance Services - Property Maintenance Bahamas</title>
+  <meta name="description" content="Professional maintenance services in the Bahamas. Preventative maintenance, roof inspections, emergency repairs, and property upkeep.">
+  
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="../css/variables.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/pages.css">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <a href="../index.html"><img src="../images/Green Construction Logo.png" id="logo" alt="Green construction logo" onerror="this.src='https://placehold.co/80x80?text=Green+Co'"></a>
+      <span class="brand-text">GREEN'S</span>
+    </div>
+    
+    <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
+      <i class="fas fa-bars"></i>
+    </button>
+    
+    <div class="nav-menu" id="navMenu">
+      <ul class="nav-links">
+        <li><a href="../index.html#home">Home</a></li>
+        <li class="dropdown">
+          <button class="dropdown-btn" id="dropdownBtn">Our Services <i class="fas fa-chevron-down"></i></button>
+          <ul class="dropdown-menu" id="servicesDropdown">
+            <li><a href="./roof.html">Roofing</a></li>
+            <li><a href="./maintenance.html">Maintenance</a></li>
+            <li><a href="./plumbing.html">Plumbing</a></li>
+            <li><a href="./demolition.html">Demolition</a></li>
+            <li><a href="./carpentry.html">Carpentry</a></li>
+            <li><a href="./general-construction.html">General Construction</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      
+      <div class="header-actions">
+        <a href="contact.html" class="btn-outline-light"><i class="fas fa-calculator"></i> Get Quote</a>
+        <a href="tel:+12424547800" class="btn-solid"><i class="fas fa-phone-alt"></i> Call Now</a>
+        <button id="themeToggle" aria-label="Dark mode"><i class="fa-solid fa-moon"></i></button>
+      </div>
+    </div>
+    
+    <div class="overlay" id="overlay"></div>
+  </header>
+
+  <main>
+    <!-- Hero Slideshow Section -->
+    <section class="service-hero">
+      <div class="slideshow-container" id="maintenanceSlideshow">
+        <div class="slideshow-track">
+          <div class="slide active">
+            <img src="../images/maintenance-1.jpg" alt="Roof inspection and maintenance" onerror="this.src='https://placehold.co/1600x600/1E3A3A/F5B041?text=Roof+Maintenance'">
+            <div class="slide-caption">
+              <h2>Roof Maintenance</h2>
+              <p>Extending the life of your roof with regular upkeep</p>
+            </div>
+          </div>
+          <div class="slide">
+            <img src="../images/maintenance-2.jpg" alt="Building inspection services" onerror="this.src='https://placehold.co/1600x600/1E3A3A/F5B041?text=Building+Inspections'">
+            <div class="slide-caption">
+              <h2>Building Inspections</h2>
+              <p>Comprehensive property evaluations</p>
+            </div>
+          </div>
+          <div class="slide">
+            <img src="../images/maintenance-3.jpg" alt="Emergency repair services" onerror="this.src='https://placehold.co/1600x600/1E3A3A/F5B041?text=Emergency+Repairs'">
+            <div class="slide-caption">
+              <h2>Emergency Repairs</h2>
+              <p>Rapid response when you need it most</p>
+            </div>
+          </div>
+          <div class="slide">
+            <img src="../images/maintenance-4.jpg" alt="Plumbing system maintenance" onerror="this.src='https://placehold.co/1600x600/1E3A3A/F5B041?text=Plumbing+Maintenance'">
+            <div class="slide-caption">
+              <h2>System Maintenance</h2>
+              <p>Keeping your mechanical systems running smoothly</p>
+            </div>
+          </div>
+        </div>
+        <button class="slide-nav prev" id="prevSlide"><i class="fas fa-chevron-left"></i></button>
+        <button class="slide-nav next" id="nextSlide"><i class="fas fa-chevron-right"></i></button>
+        <div class="slide-dots" id="slideDots"></div>
+      </div>
+    </section>
+
+    <!-- Page Header -->
+    <section class="page-header">
+      <div class="container">
+        <h1>Maintenance & Inspection Services</h1>
+        <p class="page-subtitle">Protect your investment with regular upkeep and professional inspections</p>
+      </div>
+    </section>
+
+    <!-- Service Offerings Grid -->
+    <section class="offerings-section">
+      <div class="container">
+        <div class="offerings-grid">
+          <div class="offering-card">
+            <div class="offering-icon">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <h3>Preventative Maintenance</h3>
+            <p>Scheduled upkeep services to extend the life of roofing, structural, and mechanical systems while minimizing costly repairs.</p>
+            <ul class="offering-list">
+              <li><i class="fas fa-check-circle"></i> Regular roof inspections</li>
+              <li><i class="fas fa-check-circle"></i> Gutter cleaning & repairs</li>
+              <li><i class="fas fa-check-circle"></i> Structural integrity checks</li>
+            </ul>
+          </div>
+
+          <div class="offering-card">
+            <div class="offering-icon">
+              <i class="fas fa-magnifying-glass"></i>
+            </div>
+            <h3>Roof & Building Inspections</h3>
+            <p>Comprehensive evaluations to identify wear, leaks, or safety hazards, with detailed reporting and repair recommendations.</p>
+            <ul class="offering-list">
+              <li><i class="fas fa-check-circle"></i> Post-storm damage assessment</li>
+              <li><i class="fas fa-check-circle"></i> Pre-purchase inspections</li>
+              <li><i class="fas fa-check-circle"></i> Annual safety evaluations</li>
+            </ul>
+          </div>
+
+          <div class="offering-card">
+            <div class="offering-icon">
+              <i class="fas fa-triangle-exclamation"></i>
+            </div>
+            <h3>Emergency Repair Services</h3>
+            <p>Rapid response to storm damage, water intrusion, or structural failures to protect property and occupants.</p>
+            <ul class="offering-list">
+              <li><i class="fas fa-check-circle"></i> 24/7 emergency response</li>
+              <li><i class="fas fa-check-circle"></i> Temporary structural support</li>
+              <li><i class="fas fa-check-circle"></i> Water damage mitigation</li>
+            </ul>
+          </div>
+
+          <div class="offering-card">
+            <div class="offering-icon">
+              <i class="fas fa-faucet-drip"></i>
+            </div>
+            <h3>Plumbing Maintenance</h3>
+            <p>Regular servicing of plumbing systems to ensure peak efficiency and avoid unexpected breakdowns.</p>
+            <ul class="offering-list">
+              <li><i class="fas fa-check-circle"></i> Pipe inspections & cleaning</li>
+              <li><i class="fas fa-check-circle"></i> Water heater maintenance</li>
+              <li><i class="fas fa-check-circle"></i> Leak detection & repair</li>
+            </ul>
+          </div>
+
+          <div class="offering-card">
+            <div class="offering-icon">
+              <i class="fas fa-lightbulb"></i>
+            </div>
+            <h3>Electrical System Checks</h3>
+            <p>Testing and inspection of wiring, panels, and safety devices to maintain compliance and prevent hazards.</p>
+            <ul class="offering-list">
+              <li><i class="fas fa-check-circle"></i> Panel & breaker inspections</li>
+              <li><i class="fas fa-check-circle"></i> Wiring safety checks</li>
+              <li><i class="fas fa-check-circle"></i> GFCI & surge protection testing</li>
+            </ul>
+          </div>
+
+          <div class="offering-card">
+            <div class="offering-icon">
+              <i class="fas fa-wind"></i>
+            </div>
+            <h3>HVAC Maintenance</h3>
+            <p>Regular servicing of air conditioning and ventilation systems for optimal performance.</p>
+            <ul class="offering-list">
+              <li><i class="fas fa-check-circle"></i> Filter changes & cleaning</li>
+              <li><i class="fas fa-check-circle"></i> Ductwork inspections</li>
+              <li><i class="fas fa-check-circle"></i> Efficiency tuning</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-us-section">
+      <div class="container">
+        <h2>Why Choose Green's Maintenance?</h2>
+        <div class="why-us-grid">
+          <div class="why-us-item">
+            <i class="fas fa-clock"></i>
+            <h4>Preventative Approach</h4>
+            <p>We catch small issues before they become expensive problems.</p>
+          </div>
+          <div class="why-us-item">
+            <i class="fas fa-file-alt"></i>
+            <h4>Detailed Reports</h4>
+            <p>You'll receive comprehensive documentation of all findings and recommendations.</p>
+          </div>
+          <div class="why-us-item">
+            <i class="fas fa-truck-fast"></i>
+            <h4>Rapid Response</h4>
+            <p>Emergency services available when you need them most.</p>
+          </div>
+          <div class="why-us-item">
+            <i class="fas fa-chart-line"></i>
+            <h4>Long-Term Savings</h4>
+            <p>Regular maintenance extends equipment life and reduces energy costs.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+      <div class="container">
+        <h2>Protect Your Property with Regular Maintenance</h2>
+        <p>Contact us today to schedule an inspection or set up a preventative maintenance plan.</p>
+        <div class="cta-buttons">
+          <a href="contact.html" class="btn-primary"><i class="fas fa-envelope"></i> Request a Quote</a>
+          <a href="tel:+12424547800" class="btn-secondary"><i class="fas fa-phone-alt"></i> Call (242) 454-7800</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <h3>Green's Construction</h3>
+      <p><i class="fas fa-map-marker-alt"></i> Nassau, Bahamas | Since 2006</p>
+      <div class="footer-links">
+        <a href="tel:+12424547800"><i class="fas fa-phone"></i> +1 (242) 454-7800</a>
+        <a href="mailto:Agreenconstruction2019@gmail.com"><i class="fas fa-envelope"></i> Email Us</a>
+        <a href="https://wa.me/12424547800" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+      </div>
+      <div class="social-icons">
+        <a href="https://facebook.com/yourpage" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-square"></i></a>
+        <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+      <hr>
+      <p class="copyright">© 2026 Green Construction. All rights reserved. Built with integrity in The Bahamas.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript Files -->
+  <script src="../js/theme.js"></script>
+  <script src="../js/menu.js"></script>
+  <script src="../js/slideshow.js"></script>
+  <script src="../js/main.js"></script>
+  
+  <!-- Initialize slideshow for this page -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      if (typeof Slideshow !== 'undefined') {
+        new Slideshow('maintenanceSlideshow', {
+          autoPlay: true,
+          interval: 5000,
+          showDots: true
+        });
+      }
+    });
+  </script>
+</body>
+</html>

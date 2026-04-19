@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Green's Construction | Demolition Services - Safe & Efficient Demolition Bahamas</title>
+  <meta name="description" content="Professional demolition services in the Bahamas. Full building demolition, interior stripping, site clearing, and preparation.">
+  
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="../css/variables.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/pages.css">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <a href="index.html"><img src="../images/Green Construction Logo.png" id="logo" alt="Green construction logo" onerror="this.src='https://placehold.co/80x80?text=Green+Co'"></a>
+      <span class="brand-text">GREEN'S</span>
+    </div>
+    
+    <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
+      <i class="fas fa-bars"></i>
+    </button>
+    
+    <div class="nav-menu" id="navMenu">
+      <ul class="nav-links">
+        <li><a href="../index.html#home">Home</a></li>
+        <li class="dropdown">
+          <button class="dropdown-btn" id="dropdownBtn">Our Services <i class="fas fa-chevron-down"></i></button>
+          <ul class="dropdown-menu" id="servicesDropdown">
+            <li><a href="./roof.html">Roofing</a></li>
+            <li><a href="./maintenance.html">Maintenance</a></li>
+            <li><a href="./plumbing.html">Plumbing</a></li>
+            <li><a href="./demolition.html">Demolition</a></li>
+            <li><a href="./carpentry.html">Carpentry</a></li>
+            <li><a href="./general-construction.html">General Construction</a></li>
+          </ul>
+        </li>
+        <li><a href="./contact.html">Contact Us</a></li>
+      </ul>
+      
+      <div class="header-actions">
+        <a href="./contact.html" class="btn-outline-light"><i class="fas fa-calculator"></i> Get Quote</a>
+        <a href="tel:+12424547800" class="btn-solid"><i class="fas fa-phone-alt"></i> Call Now</a>
+        <button id="themeToggle" aria-label="Dark mode"><i class="fa-solid fa-moon"></i></button>
+      </div>
+    </div>
+    
+    <div class="overlay" id="overlay"></div>
+  </header>
+
+  <main>
+    <!-- Hero Slideshow Section -->
+    <section class="service-hero">
+      <div class="slideshow-container" id="demolitionSlideshow">
+        <div class="slideshow-track">
+          <div class="slide active">
+            <img src="../images/Demolition.jpg" alt="Full building demolition in progress" onerror="this.src='https://placehold.co/1600x600/1E3A3A/F5B041?text=Full+Building+Demolition'">
+            <div class="slide-caption">
+              <h2>Full Building Demolition</h2>
+              <p>Safe and controlled demolition of residential and commercial structures</p>
+            </div>
+          </div>
+          <div class="slide">
+            <img src="../images/demolition-2.jpg" alt="Interior demolition for renovation" onerror="this.src='https://placehold.co/1600x600/1E3A3A/F5B041?text=Interior+Demolition'">
+            <div class="slide-caption">
+              <h2>Interior Strip-Out</h2>
+              <p>Careful removal of interiors while preserving the main structure</p>
+            </div>
+          </div>
+          <div class="slide">
+            <img src="../images/demolition-3.jpg" alt="Site clearing and preparation" onerror="this.src='https://placehold.co/1600x600/1E3A3A/F5B041?text=Site+Clearing'">
+            <div class="slide-caption">
+              <h2>Site Clearing & Preparation</h2>
+              <p>Removing debris and preparing your site for new construction</p>
+            </div>
+          </div>
+          <div class="slide">
+            <img src="../images/demolition-4.jpg" alt="Selective demolition services" onerror="this.src='https://placehold.co/1600x600/1E3A3A/F5B041?text=Selective+Demolition'">
+            <div class="slide-caption">
+              <h2>Selective Demolition</h2>
+              <p>Targeted removal of specific sections while preserving the rest</p>
+            </div>
+          </div>
+        </div>
+        <button class="slide-nav prev" id="prevSlide"><i class="fas fa-chevron-left"></i></button>
+        <button class="slide-nav next" id="nextSlide"><i class="fas fa-chevron-right"></i></button>
+        <div class="slide-dots" id="slideDots"></div>
+      </div>
+    </section>
+
+    <!-- Page Header -->
+    <section class="page-header">
+      <div class="container">
+        <h1>Demolition Services</h1>
+        <p class="page-subtitle">Safe, efficient, and environmentally responsible demolition across the Bahamas</p>
+      </div>
+    </section>
+
+    <!-- Service Offerings Grid -->
+    <section class="offerings-section">
+      <div class="container">
+        <div class="offerings-grid">
+          <div class="offering-card">
+            <div class="offering-icon">
+              <i class="fas fa-building"></i>
+            </div>
+            <h3>Full Building Demolition</h3>
+            <p>Complete removal of residential and commercial structures using safe, controlled methods.</p>
+            <ul class="offering-list">
+              <li><i class="fas fa-check-circle"></i> Residential & commercial demolition</li>
+              <li><i class="fas fa-check-circle"></i> Controlled implosion when needed</li>
+              <li><i class="fas fa-check-circle"></i> Complete debris removal</li>
+            </ul>
+          </div>
+
+          <div class="offering-card">
+            <div class="offering-icon">
+              <i class="fas fa-home"></i>
+            </div>
+            <h3>Interior Demolition</h3>
+            <p>Careful strip-out of interiors for renovations and remodels while keeping the main structure intact.</p>
+            <ul class="offering-list">
+              <li><i class="fas fa-check-circle"></i> Wall & partition removal</li>
+              <li><i class="fas fa-check-circle"></i> Flooring & ceiling tear-out</li>
+              <li><i class="fas fa-check-circle"></i> Fixture & appliance removal</li>
+            </ul>
+          </div>
+
+          <div class="offering-card">
+            <div class="offering-icon">
+              <i class="fas fa-cut"></i>
+            </div>
+            <h3>Selective Demolition</h3>
+            <p>Targeted removal of specific sections while preserving the rest of the building.</p>
+            <ul class="offering-list">
+              <li><i class="fas fa-check-circle"></i> Partial structure removal</li>
+              <li><i class="fas fa-check-circle"></i> Wall & column removal</li>
+              <li><i class="fas fa-check-circle"></i> Structural modifications</li>
+            </ul>
+          </div>
+
+          <div class="offering-card">
+            <div class="offering-icon">
+              <i class="fas fa-dumpster"></i>
+            </div>
+            <h3>Site Clearing & Preparation</h3>
+            <p>Complete site clearing and preparation for new development.</p>
+            <ul class="offering-list">
+              <li><i class="fas fa-check-circle"></i> Land & lot clearing</li>
+              <li><i class="fas fa-check-circle"></i> Concrete & asphalt removal</li>
+              <li><i class="fas fa-check-circle"></i> Site grading & leveling</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-us-section">
+      <div class="container">
+        <h2>Why Choose Green's Demolition?</h2>
+        <div class="why-us-grid">
+          <div class="why-us-item">
+            <i class="fas fa-shield-alt"></i>
+            <h4>Fully Licensed & Insured</h4>
+            <p>Complete liability coverage and proper permits for every project.</p>
+          </div>
+          <div class="why-us-item">
+            <i class="fas fa-leaf"></i>
+            <h4>Eco-Friendly Disposal</h4>
+            <p>We recycle materials whenever possible and dispose of waste responsibly.</p>
+          </div>
+          <div class="why-us-item">
+            <i class="fas fa-clock"></i>
+            <h4>Timely Completion</h4>
+            <p>We work efficiently to meet your project deadlines without compromise.</p>
+          </div>
+          <div class="why-us-item">
+            <i class="fas fa-hard-hat"></i>
+            <h4>Safety First</h4>
+            <p>Strict safety protocols protect our team, your property, and the public.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+      <div class="container">
+        <h2>Ready to Clear the Way for Your Next Project?</h2>
+        <p>Contact us today for a free consultation and detailed estimate.</p>
+        <div class="cta-buttons">
+          <a href="contact.html" class="btn-primary"><i class="fas fa-envelope"></i> Request a Quote</a>
+          <a href="tel:+12424547800" class="btn-secondary"><i class="fas fa-phone-alt"></i> Call (242) 454-7800</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <h3>Green's Construction</h3>
+      <p><i class="fas fa-map-marker-alt"></i> Nassau, Bahamas | Since 2006</p>
+      <div class="footer-links">
+        <a href="tel:+12424547800"><i class="fas fa-phone"></i> +1 (242) 454-7800</a>
+        <a href="mailto:Agreenconstruction2019@gmail.com"><i class="fas fa-envelope"></i> Email Us</a>
+        <a href="https://wa.me/12424547800" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+      </div>
+      <div class="social-icons">
+        <a href="https://facebook.com/yourpage" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-square"></i></a>
+        <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+      <hr>
+      <p class="copyright">© 2026 Green Construction. All rights reserved. Built with integrity in The Bahamas.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript Files -->
+  <script src="../js/night-day.js"></script>
+  <script src="../js/menu.js"></script>
+  <script src="../js/slideshow.js"></script>
+  <script src="../js/main.js"></script>
+  
+  <!-- Initialize slideshow for this page -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      if (typeof Slideshow !== 'undefined') {
+        new Slideshow('demolitionSlideshow', {
+          autoPlay: true,
+          interval: 5000,
+          showDots: true
+        });
+      }
+    });
+  </script>
+</body>
+</html>

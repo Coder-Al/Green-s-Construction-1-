@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Green's Construction | Custom Carpentry & Woodwork Bahamas</title>
+  <meta name="description" content="Expert carpentry services in the Bahamas. Custom cabinets, furniture, framing, and restoration. Master craftsmen serving Nassau since 2006.">
+  
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="../css/variables.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="stylesheet" href="../css/pages.css">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <a href="../index.html"><img src="../images/Green Construction Logo.png" id="logo" alt="Green construction logo" onerror="this.src='https://placehold.co/80x80?text=Green+Co'"></a>
+      <span class="brand-text">GREEN'S</span>
+    </div>
+    
+    <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
+      <i class="fas fa-bars"></i>
+    </button>
+    
+    <div class="nav-menu" id="navMenu">
+      <ul class="nav-links">
+        <li><a href="../index.html#home">Home</a></li>
+        <li class="dropdown">
+          <button class="dropdown-btn" id="dropdownBtn">Our Services <i class="fas fa-chevron-down"></i></button>
+          <ul class="dropdown-menu" id="servicesDropdown">
+            <li><a href="roof.html">Roofing</a></li>
+            <li><a href="maintenance.html">Maintenance</a></li>
+            <li><a href="plumbing.html">Plumbing</a></li>
+            <li><a href="demolition.html">Demolition</a></li>
+            <li><a href="carpentry.html">Carpentry</a></li>
+            <li><a href="general-construction.html">General Construction</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      
+      <div class="header-actions">
+        <a href="contact.html" class="btn-outline-light"><i class="fas fa-calculator"></i> Get Quote</a>
+        <a href="tel:+12424547800" class="btn-solid"><i class="fas fa-phone-alt"></i> Call Now</a>
+        <button id="themeToggle" aria-label="Dark mode"><i class="fa-solid fa-moon"></i></button>
+      </div>
+    </div>
+    
+    <div class="overlay" id="overlay"></div>
+  </header>
+
+  <main>
+    <!-- Hero Slideshow Section -->
+<section class="service-hero">
+  <div class="slideshow-container" id="carpentrySlideshow">
+    <div class="slideshow-track">
+      <div class="slide active">
+        <img src="../images/carpentry-1.jpg" alt="Custom kitchen cabinet installation" onerror="this.src='https://placehold.co/1600x600/1E3A3A/F5B041?text=Custom+Cabinetry'">
+        <div class="slide-caption">
+          <h2>Custom Cabinetry</h2>
+          <p>Bespoke kitchen and bathroom cabinets</p>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="../images/Carpentry.jpg" alt="Beautiful wooden staircase craftsmanship" onerror="this.src='https://placehold.co/1600x600/1E3A3A/F5B041?text=Staircase+Craftsmanship'">
+        <div class="slide-caption">
+          <h2>Master Woodworking</h2>
+          <p>Elegant staircases and railings</p>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="../images/carpentry-3.jpg" alt="Custom furniture and built-ins" onerror="this.src='https://placehold.co/1600x600/1E3A3A/F5B041?text=Custom+Furniture'">
+        <div class="slide-caption">
+          <h2>Custom Furniture</h2>
+          <p>Built-ins and free-standing pieces</p>
+        </div>
+      </div>
+    </div>
+    <button class="slide-nav prev" id="prevSlide"><i class="fas fa-chevron-left"></i></button>
+    <button class="slide-nav next" id="nextSlide"><i class="fas fa-chevron-right"></i></button>
+    <div class="slide-dots" id="slideDots"></div>
+  </div>
+</section>
+
+    <!-- Page Header -->
+    <section class="page-header">
+      <div class="container">
+        <h1>Carpentry Services</h1>
+        <p class="page-subtitle">Master craftsmanship that brings your vision to life — built to withstand the Bahamian climate</p>
+      </div>
+    </section>
+
+    <!-- Service Offerings Grid -->
+    <section class="offerings-section">
+      <div class="container">
+        <div class="offerings-grid">
+          <div class="offering-card">
+            <div class="offering-icon">
+              <i class="fas fa-cabinet-filing"></i>
+            </div>
+            <h3>Custom Cabinetry</h3>
+            <p>Bespoke kitchen, bathroom, and storage cabinets crafted from premium hardwoods that resist humidity and pests.</p>
+            <ul class="offering-list">
+              <li><i class="fas fa-check-circle"></i> Kitchen & bathroom cabinets</li>
+              <li><i class="fas fa-check-circle"></i> Built-in entertainment centers</li>
+              <li><i class="fas fa-check-circle"></i> Custom closet systems</li>
+            </ul>
+          </div>
+
+          <div class="offering-card">
+            <div class="offering-icon">
+              <i class="fas fa-draw-polygon"></i>
+            </div>
+            <h3>Structural Framing</h3>
+            <p>Hurricane-resistant framing and structural support that meets and exceeds Bahamas building codes.</p>
+            <ul class="offering-list">
+              <li><i class="fas fa-check-circle"></i> House framing & roof trusses</li>
+              <li><i class="fas fa-check-circle"></i> Deck and porch construction</li>
+              <li><i class="fas fa-check-circle"></i> Load-bearing walls</li>
+            </ul>
+          </div>
+          
+          <div class="offering-card">
+            <div class="offering-icon">
+              <i class="fas fa-door-open"></i>
+            </div>
+            <h3>Doors & Windows</h3>
+            <p>Precision installation of impact-resistant doors and windows with expert finishing.</p>
+            <ul class="offering-list">
+              <li><i class="fas fa-check-circle"></i> Exterior & interior doors</li>
+              <li><i class="fas fa-check-circle"></i> Impact-rated windows</li>
+              <li><i class="fas fa-check-circle"></i> Crown molding & baseboards</li>
+            </ul>
+          </div>
+
+          <div class="offering-card">
+            <div class="offering-icon">
+              <i class="fas fa-tools"></i>
+            </div>
+            <h3>Restoration & Repair</h3>
+            <p>Expert restoration of storm-damaged structures and aging woodwork.</p>
+            <ul class="offering-list">
+              <li><i class="fas fa-check-circle"></i> Storm damage repair</li>
+              <li><i class="fas fa-check-circle"></i> Historic restoration</li>
+              <li><i class="fas fa-check-circle"></i> Rot and termite repair</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Gallery Showcase -->
+    <section class="gallery-section">
+      <div class="container">
+        <h2>Recent Carpentry Projects</h2>
+        <p class="gallery-subtitle">A showcase of our finest work across the Bahamas</p>
+        <div class="gallery-grid" id="projectGallery">
+          <div class="gallery-item">
+            <img src="./images/carpentry-1.jpg" alt="Custom kitchen with mahogany cabinets" onerror="this.src='https://placehold.co/400x300/2C5A5A/FFFFFF?text=Kitchen+Cabinets'">
+            <div class="gallery-overlay">
+              <span>Custom Kitchen Cabinets</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="./images/carpentry-3.jpg" alt="Built-in bookshelf and entertainment center" onerror="this.src='https://placehold.co/400x300/2C5A5A/FFFFFF?text=Built-in+Shelves'">
+            <div class="gallery-overlay">
+              <span>Built-in Entertainment Center</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="./images/carpentry-5.jpg" alt="Custom wooden staircase" onerror="this.src='https://placehold.co/400x300/2C5A5A/FFFFFF?text=Staircase'">
+            <div class="gallery-overlay">
+              <span>Custom Staircase</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="./images/carpentry-6.jpg" alt="Outdoor deck and pergola" onerror="this.src='https://placehold.co/400x300/2C5A5A/FFFFFF?text=Deck+%26+Pergola'">
+            <div class="gallery-overlay">
+              <span>Outdoor Deck & Pergola</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="./images/carpentry-4.jpg" alt="Custom furniture piece" onerror="this.src='https://placehold.co/400x300/2C5A5A/FFFFFF?text=Custom+Furniture'">
+            <div class="gallery-overlay">
+              <span>Custom Dining Table</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="./images/carpentry-7.jpg" alt="Finish carpentry crown molding" onerror="this.src='https://placehold.co/400x300/2C5A5A/FFFFFF?text=Crown+Molding'">
+            <div class="gallery-overlay">
+              <span>Crown Molding Installation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-us-section">
+      <div class="container">
+        <h2>Why Choose Green's Carpentry?</h2>
+        <div class="why-us-grid">
+          <div class="why-us-item">
+            <i class="fas fa-hurricane"></i>
+            <h4>Hurricane Rated</h4>
+            <p>All structural work meets Bahamas building codes for storm resistance.</p>
+          </div>
+          <div class="why-us-item">
+            <i class="fas fa-leaf"></i>
+            <h4>Sustainable Materials</h4>
+            <p>We source local hardwoods and eco-friendly finishes when possible.</p>
+          </div>
+          <div class="why-us-item">
+            <i class="fas fa-medal"></i>
+            <h4>20+ Years Experience</h4>
+            <p>Master carpenters who understand island construction challenges.</p>
+          </div>
+          <div class="why-us-item">
+            <i class="fas fa-shield-alt"></i>
+            <h4>Workmanship Warranty</h4>
+            <p>We stand behind every project with our quality guarantee.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+      <div class="container">
+        <h2>Ready to Start Your Carpentry Project?</h2>
+        <p>Contact us today for a free consultation and detailed estimate.</p>
+        <div class="cta-buttons">
+          <a href="contact.html" class="btn-primary"><i class="fas fa-envelope"></i> Request a Quote</a>
+          <a href="tel:+12424547800" class="btn-secondary"><i class="fas fa-phone-alt"></i> Call (242) 454-7800</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <h3>Green's Construction</h3>
+      <p><i class="fas fa-map-marker-alt"></i> Nassau, Bahamas | Since 2006</p>
+      <div class="footer-links">
+        <a href="tel:+12424547800"><i class="fas fa-phone"></i> +1 (242) 454-7800</a>
+        <a href="mailto:Agreenconstruction2019@gmail.com"><i class="fas fa-envelope"></i> Email Us</a>
+        <a href="https://wa.me/12424547800" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+      </div>
+      <div class="social-icons">
+        <a href="https://facebook.com/yourpage" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-square"></i></a>
+        <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+      <hr>
+      <p class="copyright">© 2026 Green Construction. All rights reserved. Built with integrity in The Bahamas.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript Files -->
+  <script src="../js/theme.js"></script>
+  <script src="../js/menu.js"></script>
+  <script src="../js/reusable-slideshow.js"></script>
+  <script src="../js/night-day.js"></script>
+  <script src="../js/main.js"></script>
+  
+  <!-- Initialize slideshow for this page -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      if (typeof Slideshow !== 'undefined') {
+        new Slideshow('carpentrySlideshow', {
+          autoPlay: true,
+          interval: 5000,
+          showDots: true
+        });
+      }
+    });
+  </script>
+</body>
+</html>

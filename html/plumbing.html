@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Green's Construction | Plumbing Services - Professional Plumbing Bahamas</title>
+  <meta name="description" content="Professional plumbing services in the Bahamas. New installations, repairs, drainage solutions, and maintenance. Licensed plumbers serving Nassau.">
+  
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="../css/variables.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/pages.css">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <a href="../index.html"><img src="../images/Green Construction Logo.png" id="logo" alt="Green construction logo" onerror="this.src='https://placehold.co/80x80?text=Green+Co'"></a>
+      <span class="brand-text">GREEN'S</span>
+    </div>
+    
+    <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
+      <i class="fas fa-bars"></i>
+    </button>
+    
+    <div class="nav-menu" id="navMenu">
+      <ul class="nav-links">
+        <li><a href="../index.html#home">Home</a></li>
+        <li class="dropdown">
+          <button class="dropdown-btn" id="dropdownBtn">Our Services <i class="fas fa-chevron-down"></i></button>
+          <ul class="dropdown-menu" id="servicesDropdown">
+            <li><a href="./roof.html">Roofing</a></li>
+            <li><a href="./maintenance.html">Maintenance</a></li>
+            <li><a href="./plumbing.html">Plumbing</a></li>
+            <li><a href="./demolition.html">Demolition</a></li>
+            <li><a href="./carpentry.html">Carpentry</a></li>
+            <li><a href="./general-construction.html">General Construction</a></li>
+          </ul>
+        </li>
+        <li><a href="./contact.html">Contact Us</a></li>
+      </ul>
+      
+      <div class="header-actions">
+        <a href="./contact.html" class="btn-outline-light"><i class="fas fa-calculator"></i> Get Quote</a>
+        <a href="tel:+12424547800" class="btn-solid"><i class="fas fa-phone-alt"></i> Call Now</a>
+        <button id="themeToggle" aria-label="Dark mode"><i class="fa-solid fa-moon"></i></button>
+      </div>
+    </div>
+    
+    <div class="overlay" id="overlay"></div>
+  </header>
+
+  <main>
+    <!-- Hero Slideshow Section -->
+    <section class="service-hero">
+      <div class="slideshow-container" id="plumbingSlideshow">
+        <div class="slideshow-track">
+          <div class="slide active">
+            <img src="../images/plumbing-1.jpg" alt="Professional plumbing installation" onerror="this.src='https://placehold.co/1600x600/1E3A3A/F5B041?text=Plumbing+Installation'">
+            <div class="slide-caption">
+              <h2>Professional Plumbing</h2>
+              <p>Expert installation and repair services</p>
+            </div>
+          </div>
+          <div class="slide">
+            <img src="../images/plumbing-2.jpg" alt="Pipe repair and maintenance" onerror="this.src='https://placehold.co/1600x600/1E3A3A/F5B041?text=Pipe+Repair'">
+            <div class="slide-caption">
+              <h2>Pipe Repair & Maintenance</h2>
+              <p>Keeping your water systems flowing smoothly</p>
+            </div>
+          </div>
+          <div class="slide">
+            <img src="../images/plumbing-3.jpg" alt="Drainage and sewer services" onerror="this.src='https://placehold.co/1600x600/1E3A3A/F5B041?text=Drainage+Services'">
+            <div class="slide-caption">
+              <h2>Drainage Solutions</h2>
+              <p>Proper drainage for Bahamian properties</p>
+            </div>
+          </div>
+          <div class="slide">
+            <img src="../images/plumbing-4.jpg" alt="Fixture installation" onerror="this.src='https://placehold.co/1600x600/1E3A3A/F5B041?text=Fixture+Installation'">
+            <div class="slide-caption">
+              <h2>Fixture Installation</h2>
+              <p>Sinks, faucets, toilets, and more</p>
+            </div>
+          </div>
+        </div>
+        <button class="slide-nav prev" id="prevSlide"><i class="fas fa-chevron-left"></i></button>
+        <button class="slide-nav next" id="nextSlide"><i class="fas fa-chevron-right"></i></button>
+        <div class="slide-dots" id="slideDots"></div>
+      </div>
+    </section>
+
+    <!-- Page Header -->
+    <section class="page-header">
+      <div class="container">
+        <h1>Plumbing Services</h1>
+        <p class="page-subtitle">Reliable plumbing solutions for the unique demands of island living</p>
+      </div>
+    </section>
+
+    <!-- Service Offerings Grid -->
+    <section class="offerings-section">
+      <div class="container">
+        <div class="offerings-grid">
+          <div class="offering-card">
+            <div class="offering-icon">
+              <i class="fas fa-faucet"></i>
+            </div>
+            <h3>New Plumbing Installations</h3>
+            <p>From residential to commercial systems, we install pipes, fixtures, and water systems built to handle the island's climate.</p>
+            <ul class="offering-list">
+              <li><i class="fas fa-check-circle"></i> Complete home plumbing systems</li>
+              <li><i class="fas fa-check-circle"></i> Commercial plumbing installation</li>
+              <li><i class="fas fa-check-circle"></i> Water heater installation</li>
+            </ul>
+          </div>
+
+          <div class="offering-card">
+            <div class="offering-icon">
+              <i class="fas fa-hand-holding-droplet"></i>
+            </div>
+            <h3>Plumbing Repairs</h3>
+            <p>Whether it's leaks, burst pipes, or clogged drains, our team responds quickly to restore function and prevent costly damage.</p>
+            <ul class="offering-list">
+              <li><i class="fas fa-check-circle"></i> Leak detection & repair</li>
+              <li><i class="fas fa-check-circle"></i> Burst pipe repair</li>
+              <li><i class="fas fa-check-circle"></i> Clogged drain clearing</li>
+            </ul>
+          </div>
+
+          <div class="offering-card">
+            <div class="offering-icon">
+              <i class="fas fa-toilet"></i>
+            </div>
+            <h3>Drainage & Sewer Services</h3>
+            <p>Proper drainage is crucial in the Bahamas to prevent flooding — we provide cleaning, repairs, and installations to keep things flowing.</p>
+            <ul class="offering-list">
+              <li><i class="fas fa-check-circle"></i> Sewer line cleaning & repair</li>
+              <li><i class="fas fa-check-circle"></i> Drainage system installation</li>
+              <li><i class="fas fa-check-circle"></i> Storm drain maintenance</li>
+            </ul>
+          </div>
+
+          <div class="offering-card">
+            <div class="offering-icon">
+              <i class="fas fa-cubes"></i>
+            </div>
+            <h3>Quality Plumbing Materials</h3>
+            <p>We use only materials suited for the Bahamian climate to ensure long-lasting performance.</p>
+            <ul class="offering-list">
+              <li><i class="fas fa-check-circle"></i> PVC & CPVC piping - corrosion resistant</li>
+              <li><i class="fas fa-check-circle"></i> PEX piping - flexible & durable</li>
+              <li><i class="fas fa-check-circle"></i> Copper piping - long-lasting</li>
+            </ul>
+          </div>
+
+          <div class="offering-card">
+            <div class="offering-icon">
+              <i class="fas fa-water"></i>
+            </div>
+            <h3>Water Pressure Solutions</h3>
+            <p>Diagnosis and repair of low or high water pressure problems affecting your property.</p>
+            <ul class="offering-list">
+              <li><i class="fas fa-check-circle"></i> Pressure regulator installation</li>
+              <li><i class="fas fa-check-circle"></i> Booster pump systems</li>
+              <li><i class="fas fa-check-circle"></i> Pressure testing & diagnosis</li>
+            </ul>
+          </div>
+
+          <div class="offering-card">
+            <div class="offering-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <h3>Emergency Plumbing</h3>
+            <p>24/7 emergency response for urgent plumbing issues that can't wait.</p>
+            <ul class="offering-list">
+              <li><i class="fas fa-check-circle"></i> Burst pipe emergency repair</li>
+              <li><i class="fas fa-check-circle"></i> Sewage backup cleanup</li>
+              <li><i class="fas fa-check-circle"></i> Water shut-off & containment</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-us-section">
+      <div class="container">
+        <h2>Why Choose Green's Plumbing?</h2>
+        <div class="why-us-grid">
+          <div class="why-us-item">
+            <i class="fas fa-certificate"></i>
+            <h4>Licensed Plumbers</h4>
+            <p>Fully licensed and insured plumbing professionals.</p>
+          </div>
+          <div class="why-us-item">
+            <i class="fas fa-clock"></i>
+            <h4>24/7 Emergency Service</h4>
+            <p>Available around the clock for urgent plumbing needs.</p>
+          </div>
+          <div class="why-us-item">
+            <i class="fas fa-check-double"></i>
+            <h4>Quality Guaranteed</h4>
+            <p>All work backed by our workmanship warranty.</p>
+          </div>
+          <div class="why-us-item">
+            <i class="fas fa-chart-line"></i>
+            <h4>Upfront Pricing</h4>
+            <p>Clear estimates with no hidden fees.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+      <div class="container">
+        <h2>Need a Reliable Plumber?</h2>
+        <p>Contact us today for fast, professional plumbing service.</p>
+        <div class="cta-buttons">
+          <a href="../contact.html" class="btn-primary"><i class="fas fa-envelope"></i> Request a Quote</a>
+          <a href="tel:+12424547800" class="btn-secondary"><i class="fas fa-phone-alt"></i> Call (242) 454-7800</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <h3>Green's Construction</h3>
+      <p><i class="fas fa-map-marker-alt"></i> Nassau, Bahamas | Since 2006</p>
+      <div class="footer-links">
+        <a href="tel:+12424547800"><i class="fas fa-phone"></i> +1 (242) 454-7800</a>
+        <a href="mailto:Agreenconstruction2019@gmail.com"><i class="fas fa-envelope"></i> Email Us</a>
+        <a href="https://wa.me/12424547800" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+      </div>
+      <div class="social-icons">
+        <a href="https://facebook.com/yourpage" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-square"></i></a>
+        <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+      <hr>
+      <p class="copyright">© 2026 Green Construction. All rights reserved. Built with integrity in The Bahamas.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript Files -->
+  <script src="../js/theme.js"></script>
+  <script src="../js/menu.js"></script>
+  <script src="../js/slideshow.js"></script>
+  <script src="../js/main.js"></script>
+  
+  <!-- Initialize slideshow for this page -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      if (typeof Slideshow !== 'undefined') {
+        new Slideshow('plumbingSlideshow', {
+          autoPlay: true,
+          interval: 5000,
+          showDots: true
+        });
+      }
+    });
+  </script>
+</body>
+</html>

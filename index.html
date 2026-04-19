@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Green's Construction | Build Right. Build Strong. Build Green!</title>
+  
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="./images/Green construction Logo.png" id="logo" alt="Green construction logo" onerror="this.src='https://placehold.co/80x80?text=Green+Co'">
+      <span class="brand-text">GREEN'S</span>
+    </div>
+    
+    <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
+      <i class="fas fa-bars"></i>
+    </button>
+    
+    <div class="nav-menu" id="navMenu">
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li class="dropdown">
+          <button class="dropdown-btn" id="dropdownBtn">Our Services <i class="fas fa-chevron-down"></i></button>
+          <ul class="dropdown-menu" id="servicesDropdown">
+            <li><a href="./roof.html">Roofing</a></li>
+            <li><a href="./maintance.html">Maintenance</a></li>
+            <li><a href="./plumbing.html">Plumbing</a></li>
+            <li><a href="./demolition.html">Demolition</a></li>
+            <li><a href="./carpentry.html">Carpentry</a></li>
+            <li><a href="./general-construction.html">General Construction</a></li>
+          </ul>
+        </li>
+        <li><a href="./contact.html">Contact Us</a></li>
+      </ul>
+      
+      <div class="header-actions">
+        <a href="./contact.html" class="btn-outline-light"><i class="fas fa-calculator"></i> Quote</a>
+        <a href="tel:+12424547800" class="btn-solid"><i class="fas fa-phone-alt"></i> Call Now</a>
+        <button id="themeToggle" aria-label="Dark mode"><i class="fa-solid fa-moon"></i></button>
+      </div>
+    </div>
+    
+    <div class="overlay" id="overlay"></div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Build Right. <span class="highlight">Build Strong.</span><br>Build <span class="highlight">Green!</span></h1>
+        <p>For nearly two decades, Green's Construction has delivered excellence across the Bahamas — from resilient roofing to custom carpentry. Your vision, our expertise.</p>
+        <div class="hero-btns">
+          <a href="./contact.html" class="btn-primary"><i class="fas fa-hard-hat"></i> Get a Free Quote</a>
+          <a href="tel:+12424547800" class="btn-secondary"><i class="fas fa-headset"></i> 24/7 Consultation</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Story Section -->
+    <section class="story-section">
+      <div class="container">
+        <div class="story-grid">
+          <div class="story-card">
+            <h2><i class="fas fa-leaf"></i> Our Story</h2>
+            <p>In 2006, Mr. Green made a promise: "Every home we touch will stand stronger, last longer, and feel like it belongs." That promise became the soul of Green Construction. From roofs that brave tropical storms to handcrafted interiors, we bring precision and passion to every project.</p>
+          </div>
+          <div class="story-card">
+            <h2><i class="fas fa-clock"></i> Bahamas Built</h2>
+            <p>We understand the unique demands of island living: salt-resistant materials, storm-ready structures, and energy efficiency. Our team ensures your property is both beautiful and durable, giving you peace of mind year-round.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section">
+      <div class="container">
+        <h2 class="section-title">Expert Services Tailored for the Bahamas</h2>
+        <div class="services-grid">
+          <div class="service-card">
+            <img src="./images/zohair-mirza--1l0iZaM8ms-unsplash.jpg" class="service-img" alt="Roofing" onerror="this.src='https://placehold.co/400x200?text=Roofing'">
+            <div class="service-content">
+              <h3>Roofing</h3>
+              <p>Storm-resistant, energy-efficient roofing solutions built to withstand sun, salt, and hurricanes.</p>
+              <a href="./html/roof.html" class="service-link">Learn More →</a>
+            </div>
+          </div>
+          <div class="service-card">
+            <img src="./images/pexels-ron-lach-8829869.jpg" class="service-img" alt="Maintenance" onerror="this.src='https://placehold.co/400x200?text=Maintenance'">
+            <div class="service-content">
+              <h3>Maintenance</h3>
+              <p>Preventative upkeep to extend the life of your property and reduce costly emergency repairs.</p>
+              <a href="./html/maintance.html" class="service-link">Learn More →</a>
+            </div>
+          </div>
+          <div class="service-card">
+            <img src="./images/plumbing.jpg" class="service-img" alt="Plumbing" onerror="this.src='https://placehold.co/400x200?text=Plumbing'">
+            <div class="service-content">
+              <h3>Plumbing</h3>
+              <p>Reliable plumbing systems designed to resist corrosion and perform under high humidity.</p>
+              <a href="./html/plumbing.html" class="service-link">Learn More →</a>
+            </div>
+          </div>
+          <div class="service-card">
+            <img src="./images/Demolition.jpg" class="service-img" alt="Demolition" onerror="this.src='https://placehold.co/400x200?text=Demolition'">
+            <div class="service-content">
+              <h3>Demolition</h3>
+              <p>Safe, efficient, and environmentally responsible demolition to clear the way for new builds.</p>
+              <a href="./html/demolition.html" class="service-link">Learn More →</a>
+            </div>
+          </div>
+          <div class="service-card">
+            <img src="./images/Carpentry.jpg" class="service-img" alt="Carpentry" onerror="this.src='https://placehold.co/400x200?text=Carpentry'">
+            <div class="service-content">
+              <h3>Carpentry</h3>
+              <p>Custom woodwork, cabinetry, and framing that merge island aesthetics with durability.</p>
+              <a href="./html/carpentry.html" class="service-link">Learn More →</a>
+            </div>
+          </div>
+          <div class="service-card">
+            <img src="./images/General-construction.jpg" class="service-img" alt="General Construction" onerror="this.src='https://placehold.co/400x200?text=Construction'">
+            <div class="service-content">
+              <h3>General Construction</h3>
+              <p>Full-service construction management from foundation to finish — built for the tropics.</p>
+              <a href="./html/general construction.html" class="service-link">Learn More →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <h3>Green's Construction</h3>
+      <p><i class="fas fa-map-marker-alt"></i> Nassau, Bahamas | Since 2006</p>
+      <div class="footer-links">
+        <a href="tel:+12424547800"><i class="fas fa-phone"></i> +1 (242) 454-7800</a>
+        <a href="mailto:Agreenconstruction2019@gmail.com"><i class="fas fa-envelope"></i> Email Us</a>
+        <a href="https://wa.me/12424547800" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+      </div>
+      <div class="social-icons">
+        <a href="https://facebook.com/yourpage" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-square"></i></a>
+        <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+      <hr>
+      <p class="copyright">© 2026 Green Construction. All rights reserved. Built with integrity.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript Files -->
+  <script src="./js/night-day.js"></script>
+  <script src="./js/menu.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>

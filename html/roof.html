@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Green's Construction | Roofing Services - Hurricane-Ready Roofing Bahamas</title>
+  <meta name="description" content="Professional roofing services in the Bahamas. Roof replacement, repairs, inspections, and flat roofing systems. Hurricane-resistant solutions.">
+  
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="../css/variables.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/pages.css">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <a href="../index.html"><img src="../images/Green Construction Logo.png" id="logo" alt="Green construction logo" onerror="this.src='https://placehold.co/80x80?text=Green+Co'"></a>
+      <span class="brand-text">GREEN'S</span>
+    </div>
+    
+    <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
+      <i class="fas fa-bars"></i>
+    </button>
+    
+    <div class="nav-menu" id="navMenu">
+      <ul class="nav-links">
+        <li><a href="../index.html#home">Home</a></li>
+        <li class="dropdown">
+          <button class="dropdown-btn" id="dropdownBtn">Our Services <i class="fas fa-chevron-down"></i></button>
+          <ul class="dropdown-menu" id="servicesDropdown">
+            <li><a href="./roof.html">Roofing</a></li>
+            <li><a href="./maintenance.html">Maintenance</a></li>
+            <li><a href="./plumbing.html">Plumbing</a></li>
+            <li><a href="./demolition.html">Demolition</a></li>
+            <li><a href="./carpentry.html">Carpentry</a></li>
+            <li><a href="./general-construction.html">General Construction</a></li>
+          </ul>
+        </li>
+        <li><a href="./contact.html">Contact Us</a></li>
+      </ul>
+      
+      <div class="header-actions">
+        <a href="contact.html" class="btn-outline-light"><i class="fas fa-calculator"></i> Get Quote</a>
+        <a href="tel:+12424547800" class="btn-solid"><i class="fas fa-phone-alt"></i> Call Now</a>
+        <button id="themeToggle" aria-label="Dark mode"><i class="fa-solid fa-moon"></i></button>
+      </div>
+    </div>
+    
+    <div class="overlay" id="overlay"></div>
+  </header>
+
+  <main>
+    <!-- Hero Slideshow Section -->
+    <section class="service-hero">
+      <div class="slideshow-container" id="roofingSlideshow">
+        <div class="slideshow-track">
+          <div class="slide active">
+            <img src="../images/roof-slideshow.jpg" alt="New roof installation" onerror="this.src='https://placehold.co/1600x600/1E3A3A/F5B041?text=New+Roof+Installation'">
+            <div class="slide-caption">
+              <h2>Professional Roofing</h2>
+              <p>Hurricane-resistant roofs built to last</p>
+            </div>
+          </div>
+          <div class="slide">
+            <img src="../images/roofing-slideshow2.jpg" alt="Roof repair services" onerror="this.src='https://placehold.co/1600x600/1E3A3A/F5B041?text=Roof+Repair'">
+            <div class="slide-caption">
+              <h2>Roof Repairs</h2>
+              <p>Fast, reliable storm damage repair</p>
+            </div>
+          </div>
+          <div class="slide">
+            <img src="../images/roof-slideshow3.jpg" alt="Roof inspection" onerror="this.src='https://placehold.co/1600x600/1E3A3A/F5B041?text=Roof+Inspection'">
+            <div class="slide-caption">
+              <h2>Roof Inspections</h2>
+              <p>Catching issues before they become problems</p>
+            </div>
+          </div>
+          <div class="slide">
+            <img src="../images/flat-roofing.jpg" alt="Flat roofing systems" onerror="this.src='https://placehold.co/1600x600/1E3A3A/F5B041?text=Flat+Roofing'">
+            <div class="slide-caption">
+              <h2>Flat Roofing Systems</h2>
+              <p>Perfect for commercial properties</p>
+            </div>
+          </div>
+        </div>
+        <button class="slide-nav prev" id="prevSlide"><i class="fas fa-chevron-left"></i></button>
+        <button class="slide-nav next" id="nextSlide"><i class="fas fa-chevron-right"></i></button>
+        <div class="slide-dots" id="slideDots"></div>
+      </div>
+    </section>
+
+    <!-- Page Header -->
+    <section class="page-header">
+      <div class="container">
+        <h1>Roofing Services</h1>
+        <p class="page-subtitle">Protecting your home with storm-ready roofing solutions</p>
+      </div>
+    </section>
+
+    <!-- Service Offerings Grid -->
+    <section class="offerings-section">
+      <div class="container">
+        <div class="offerings-grid">
+          <div class="offering-card">
+            <div class="offering-icon">
+              <i class="fas fa-home"></i>
+            </div>
+            <h3>Roof Replacement</h3>
+            <p>When your old roof can no longer withstand the elements, we provide complete tear-off and replacement services using hurricane-resistant materials built to last.</p>
+            <ul class="offering-list">
+              <li><i class="fas fa-check-circle"></i> Complete tear-off & replacement</li>
+              <li><i class="fas fa-check-circle"></i> Hurricane-resistant materials</li>
+              <li><i class="fas fa-check-circle"></i> Shingle, tile & metal options</li>
+            </ul>
+          </div>
+
+          <div class="offering-card">
+            <div class="offering-icon">
+              <i class="fas fa-tools"></i>
+            </div>
+            <h3>Roof Repairs</h3>
+            <p>From leaks to storm damage, our team acts quickly to repair problems and prevent further damage to your home or business.</p>
+            <ul class="offering-list">
+              <li><i class="fas fa-check-circle"></i> Leak detection & repair</li>
+              <li><i class="fas fa-check-circle"></i> Storm damage restoration</li>
+              <li><i class="fas fa-check-circle"></i> Shingle & tile replacement</li>
+            </ul>
+          </div>
+
+          <div class="offering-card">
+            <div class="offering-icon">
+              <i class="fas fa-search"></i>
+            </div>
+            <h3>Roof Inspections & Maintenance</h3>
+            <p>Regular maintenance helps extend your roof's lifespan in the Bahamian climate. We identify issues early and recommend the right fixes before they become costly.</p>
+            <ul class="offering-list">
+              <li><i class="fas fa-check-circle"></i> Comprehensive roof inspections</li>
+              <li><i class="fas fa-check-circle"></i> Preventative maintenance plans</li>
+              <li><i class="fas fa-check-circle"></i> Detailed inspection reports</li>
+            </ul>
+          </div>
+
+          <div class="offering-card">
+            <div class="offering-icon">
+              <i class="fas fa-warehouse"></i>
+            </div>
+            <h3>Flat Roofing Systems</h3>
+            <p>Perfect for commercial buildings — reflective, waterproof, and resilient in high heat.</p>
+            <ul class="offering-list">
+              <li><i class="fas fa-check-circle"></i> TPO & PVC roofing systems</li>
+              <li><i class="fas fa-check-circle"></i> Modified bitumen installation</li>
+              <li><i class="fas fa-check-circle"></i> Reflective coatings</li>
+            </ul>
+          </div>
+
+          <div class="offering-card">
+            <div class="offering-icon">
+              <i class="fas fa-charging-station"></i>
+            </div>
+            <h3>Energy-Efficient Roofing</h3>
+            <p>Cool roofing solutions that reduce energy costs and keep your property comfortable.</p>
+            <ul class="offering-list">
+              <li><i class="fas fa-check-circle"></i> Reflective roof coatings</li>
+              <li><i class="fas fa-check-circle"></i> Insulation upgrades</li>
+              <li><i class="fas fa-check-circle"></i> Solar-ready installations</li>
+            </ul>
+          </div>
+
+          <div class="offering-card">
+            <div class="offering-icon">
+              <i class="fas fa-hurricane"></i>
+            </div>
+            <h3>Hurricane Strapping</h3>
+            <p>Reinforcement systems that keep your roof secure during severe storms.</p>
+            <ul class="offering-list">
+              <li><i class="fas fa-check-circle"></i> Roof-to-wall connections</li>
+              <li><i class="fas fa-check-circle"></i> Hurricane clip installation</li>
+              <li><i class="fas fa-check-circle"></i> Code-compliant strapping</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-us-section">
+      <div class="container">
+        <h2>Why Choose Green's Roofing?</h2>
+        <div class="why-us-grid">
+          <div class="why-us-item">
+            <i class="fas fa-shield-alt"></i>
+            <h4>Hurricane Ready</h4>
+            <p>All roofing meets Bahamas building codes for storm resistance.</p>
+          </div>
+          <div class="why-us-item">
+            <i class="fas fa-certificate"></i>
+            <h4>Quality Materials</h4>
+            <p>We use only premium, weather-tested roofing materials.</p>
+          </div>
+          <div class="why-us-item">
+            <i class="fas fa-clock"></i>
+            <h4>Fast Response</h4>
+            <p>Emergency repairs available when you need them.</p>
+          </div>
+          <div class="why-us-item">
+            <i class="fas fa-handshake"></i>
+            <h4>Workmanship Warranty</h4>
+            <p>All installations backed by our quality guarantee.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+      <div class="container">
+        <h2>Need a New Roof or Emergency Repair?</h2>
+        <p>Contact us today for a free consultation and detailed estimate.</p>
+        <div class="cta-buttons">
+          <a href="./contact.html" class="btn-primary"><i class="fas fa-envelope"></i> Request a Quote</a>
+          <a href="tel:+12424547800" class="btn-secondary"><i class="fas fa-phone-alt"></i> Call (242) 454-7800</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <h3>Green's Construction</h3>
+      <p><i class="fas fa-map-marker-alt"></i> Nassau, Bahamas | Since 2006</p>
+      <div class="footer-links">
+        <a href="tel:+12424547800"><i class="fas fa-phone"></i> +1 (242) 454-7800</a>
+        <a href="mailto:Agreenconstruction2019@gmail.com"><i class="fas fa-envelope"></i> Email Us</a>
+        <a href="https://wa.me/12424547800" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+      </div>
+      <div class="social-icons">
+        <a href="https://facebook.com/yourpage" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-square"></i></a>
+        <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+      <hr>
+      <p class="copyright">© 2026 Green Construction. All rights reserved. Built with integrity in The Bahamas.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript Files -->
+  <script src="../js/theme.js"></script>
+  <script src="../js/menu.js"></script>
+  <script src="../js/slideshow.js"></script>
+  <script src="../js/main.js"></script>
+  
+  <!-- Initialize slideshow for this page -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      if (typeof Slideshow !== 'undefined') {
+        new Slideshow('roofingSlideshow', {
+          autoPlay: true,
+          interval: 5000,
+          showDots: true
+        });
+      }
+    });
+  </script>
+</body>
+</html>
